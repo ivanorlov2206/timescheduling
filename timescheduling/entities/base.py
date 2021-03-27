@@ -1,4 +1,3 @@
-import abc
 import uuid
 import json  # Сугубо из уважения к Ивану. И так как eval == evil
 
@@ -27,7 +26,7 @@ class Teacher(models.Model):
 
 
 class Group:
-    pass
+    count = models.PositiveSmallIntegerField()
 
 
 class Subject:
